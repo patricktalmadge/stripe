@@ -28,7 +28,7 @@ You can than use the Stripe API like normal (see Stripe API https://stripe.com/d
 	);
 
 
-##Current Stripe API version is 1.7.1.
+##Current Stripe API version is 1.7.2.
 
 
 Stripe is an payment company with a simple API and a reasonable fee structure.
