@@ -5,4 +5,6 @@ Autoloader::map(array(
 	'Stripe' => __DIR__.'/library/Stripe.php',
 ));
 
+Stripe::setApiKey(Config::get('stripe.api_key'));
+
 ?>
