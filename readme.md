@@ -1,4 +1,4 @@
-## Stripe Bundle, by Patrick Talmadge
+## Stripe Bundle
 
 Stripe Laravel bundle is simple API wrapper for Stripe's PHP API.
 
