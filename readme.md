@@ -28,6 +28,13 @@ You can than use the Stripe API like normal (see Stripe API https://stripe.com/d
 	);
 
 
+If you don't want to call Stripe::setApiKey("YOUR_KEY"); all the time you can create a stripe.php config file with the following entry:
+
+	return array(
+		'api_key' => 'YOUR_KEY', 
+	);
+
+
 ##Current Stripe API version is 1.7.10.
 
 
