@@ -6,5 +6,6 @@ Autoloader::map(array(
 ));
 
 Stripe::setApiKey(Config::get('stripe.api_key', ''));
+Stripe::setApiVersion(Config::get('stripe.api_version', ''));
 
 ?>
