@@ -31,12 +31,16 @@ You can than use the Stripe API like normal (see Stripe API https://stripe.com/d
 If you don't want to call Stripe::setApiKey("YOUR_KEY"); all the time you can create a stripe.php config file with the following entry:
 
 	return array(
-		'api_key' => 'YOUR_KEY', 
+		'api_key' => 'YOUR_KEY',
+		'api_version' => 'VERSION'
 	);
 
+Stripe has introduced a version number to avoid breaking changes.  
 
-##Current Stripe API version is 1.7.10.
+##Current Stripe Versions
 
+- Stripe PHP library is 1.7.12 (see https://github.com/stripe/stripe-php)
+- Stripe API version is 2012-11-07 (see https://stripe.com/docs/upgrades)
 
 Stripe is an payment company with a simple API and a reasonable fee structure.
 
